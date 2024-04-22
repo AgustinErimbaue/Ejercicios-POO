@@ -82,7 +82,7 @@ class Maya extends Warrior {
 
     drinkColaCao() {
         this.power += 10;
-        console.log("Poder aumentado en 10:", this.power);
+        return("Poder aumentado en 10:", this.power);
     }
 }
 
@@ -93,7 +93,7 @@ class Aztec extends Warrior {
 
     drinkNesquik() {
         this.life += 10;
-        console.log("Vida aumentada en 10:", this.life);
+        return("Vida aumentada en 10:", this.life);
     }
 }
 
